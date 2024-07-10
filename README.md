@@ -7,10 +7,10 @@ Criação de uma Loja de Games - Backend com Spring para o Bootcamp da Generatio
 3. Execução da aplicação no STS e verificação da criação do banco de dados no no MySQL Workbench;
 4. Criação da Classe Model Produto, Classe Model Categoria e dos seus atributos necessários, incluindo os Métodos Get e Set, e as Anotações;
 5. Execução da aplicação no STS e verificação de criação da tabela tb_produtos e tb_categorias no db_games do MySQL Workbench.
-6. Criação das Interfaces Repository denominada ProdutoRepository e CategoriaRepository;
+6. Criação das Interfaces Repository denominadas ProdutoRepository e CategoriaRepository;
 7. Criação do Método de Busca Específica, findAllByTituloContainingIgnoreCase(), na Interface ProdutoRepository;
 8. Criação do Método de Busca Específica, findAllByGeneroContainingIgnoreCase(), na Interface CategoriaRepository;
-9. Criação das Classes Controller denominada ProdutoController e CategoriaController;
+9. Criação das Classes Controller denominadas ProdutoController e CategoriaController;
 10. Criação do endpoint, Método getAll() na Classe ProdutoController e CategoriaController;
 11. Criação dos Métodos do CRUD na Classe ProdutoController: getById(), getByTitulo(), post(), put() e delete();
 12. Criação dos Métodos do CRUD na Classe CategoriaController: getById(), getByGenero(), post(), put() e delete();
